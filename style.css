@@ -1,0 +1,211 @@
+body {
+  font-family: 'Courier', sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1px;
+  overflow: hidden;
+  background-color: #596f62;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #7ea16b;
+  color: black;
+}
+
+li a.active {
+  background-color: #c3d898; 
+  color: black;
+  font-weight: bold;
+}
+
+
+.header {
+  background-color: #B6C9BB;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.banner img {
+  width: 100%;
+  height: 250px;
+  display: block;
+}
+
+
+.center-justify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  line-height: 1.9;
+}
+
+.center-justify p {
+  max-width: 1100px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.justify-text {
+  text-align: justify;
+}
+
+
+.footer {
+  background-color: #596f62;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #7ea16b;
+}
+
+
+@media screen and (max-width: 768px) {
+  .banner img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .center-justify {
+    flex-direction: column;
+    text-align: justify;
+  }
+}
+
+   .center-block {
+      width: 50%;
+      margin: 0 auto;
+   }
+
+.social-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #596f62;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  color: #7ea16b;
+}
+
+
+table, th, td {
+  border:3px solid #28190E;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+    th {
+      background-color: #629677;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px; 
+      padding: 20px;
+    }
+
+    .container img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .container .text {
+      max-width: 800px;
+      font-size: 16px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .container .text {
+        max-width: 100%;
+      }
+    }
+
+
+.middle-column {
+  text-align: center; 
+}
+
+    .center-justify {
+      width: 80%;
+      margin: 0 auto;
+      text-align: justify;
+    }
+
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.audio-center {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+
+h2 {
+    font-family: Brush Script MT, fantasy;
+}
+
+h4 {
+    font-family: Papyrus, fantasy;
+}
+
+h5 {
+    font-family: Lucida Handwriting, fantasy;
+}
